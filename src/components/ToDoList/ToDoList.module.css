@@ -1,0 +1,27 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 80%; 
+}
+
+.deletAll {
+     
+    margin-top: 12px;
+    width: 25%;
+    height: 30px;
+    border: 2px solid purple;
+    background-color: white;
+    color: purple;
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 1200px) {
+    .contenedor {
+      width: 50%;
+    }
+  }

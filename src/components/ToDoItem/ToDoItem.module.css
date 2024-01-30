@@ -1,0 +1,30 @@
+.botones {
+    display: flex;
+    justify-content: space-between; 
+    width: 25%;
+   
+}
+
+.task {
+    text-align: left;
+    width: 75%
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 25px;
+    width: 25px;
+}
+
+.noCompleted {
+    display: flex;
+    justify-content: space-around;
+     
+    margin-bottom: 5px;
+}
