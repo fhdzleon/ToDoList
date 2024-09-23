@@ -9,6 +9,10 @@ const AddToDo = (props) => {
   };
 
   const handleSubmit = (event) => {
+    if (task.trim().length === 0) {
+      return alert("No puedes agregar una tarea vacia");
+    }
+
     event.preventDefault();
     props.addTask(task);
     setTask("");
@@ -23,14 +27,16 @@ const AddToDo = (props) => {
   return (
     <div className={style.contenedor}>
       <input
-      className={style.input}
+        className={style.input}
         type="text"
         placeholder="Agrega tarea..."
         value={task}
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
       />
-      <button className={style.button} onClick={handleSubmit}>+ Agregar</button>
+      <button className={style.button} onClick={handleSubmit}>
+        + Agregar
+      </button>
     </div>
   );
 };

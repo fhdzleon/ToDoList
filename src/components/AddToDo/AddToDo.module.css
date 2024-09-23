@@ -1,34 +1,36 @@
 .input {
-    width: 70%;
-    height: 40px;
-    padding: 0;
-    border: 2px solid red;
-    padding-left: 10px;
-    outline: none;
+  width: 70%;
+  height: 40px;
+  padding: 0;
+  border: 2px solid red;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 20px;
 }
 
 .button {
-    height: 44px;
-    width: 26%;
-    padding: 0;
-    margin-left: 15px;
-    border: 2px solid green;
-    background-color: white;;
-    color: green;
-    font-weight: bolder;
-    font-size: 14px; 
+  height: 44px;
+  width: 26%;
+  padding: 0;
+  margin-left: 15px;
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 20px;
 }
 
 .contenedor {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto; 
-    width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
 }
 
 @media screen and (min-width: 1200px) {
-    .contenedor {
-      width: 50%;
-    }
+  .contenedor {
+    width: 50%;
   }
+}
